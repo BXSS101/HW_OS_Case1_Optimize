@@ -1,0 +1,48 @@
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\CS Case.exe
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\CS Case.deps.json
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\CS Case.runtimeconfig.json
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\CS Case.runtimeconfig.dev.json
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\ref\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case\bin\Debug\net5.0\CS Case.pdb
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.csproj.AssemblyReference.cache
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.AssemblyInfoInputs.cache
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.AssemblyInfo.cs
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.csproj.CoreCompileInputs.cache
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\ref\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.pdb
+C:\Users\akara\Documents\playground\CS Case\obj\Debug\net5.0\CS Case.genruntimeconfig.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\CS Case.exe
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\CS Case.deps.json
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\CS Case.runtimeconfig.json
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\CS Case.runtimeconfig.dev.json
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\ref\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\bin\Debug\net5.0\CS Case.pdb
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.csproj.AssemblyReference.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.AssemblyInfoInputs.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.AssemblyInfo.cs
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.csproj.CoreCompileInputs.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\ref\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.pdb
+C:\Users\akara\Documents\playground\CS Case Optimize\obj\Debug\net5.0\CS Case.genruntimeconfig.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\CS Case.exe
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\CS Case.deps.json
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\CS Case.runtimeconfig.json
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\CS Case.runtimeconfig.dev.json
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\ref\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\bin\Debug\net5.0\CS Case.pdb
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.csproj.AssemblyReference.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.AssemblyInfoInputs.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.AssemblyInfo.cs
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.csproj.CoreCompileInputs.cache
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\ref\CS Case.dll
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.pdb
+C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\obj\Debug\net5.0\CS Case.genruntimeconfig.cache

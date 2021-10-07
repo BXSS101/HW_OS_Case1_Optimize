@@ -1,0 +1,8 @@
+Boss Before Modification
+Run1:18920
+Run2:19130
+Run3:18329
+Run4:18937
+Run5:18993
+Avg :18861.8
+------------------------
