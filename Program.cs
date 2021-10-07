@@ -42,22 +42,20 @@ namespace Problem01 {
             else if (Data_Global[ind] %7 == 0) {
                 Sum_Global[n] += (Data_Global[ind] / 3);
             }
-            Data_Global[ind] = 0;
-            G_index++;   
+            Data_Global[ind] = 0; 
+            
         }
         static void newThreadA() {
             for (int i = 0; i < 500000000; i++) 
                 sum(i,0);
         }
         static void newThreadB() {
-            for (int i = 500000000; i < 1000000000; i++)
-                sum(i,1);
+            for (int j = 500000000; j < 1000000000; j++)
+                sum(j,1);
         }
         static void Main(string[] args) {
             Stopwatch sw = new Stopwatch();
-            int i, y;
-            Thread th1 = new Thread(newThreadA);
-            Thread th2 = new Thread(newThreadB);
+            int y;
 
             /* Read data from file */
             Console.Write("Data read...");
@@ -68,16 +66,17 @@ namespace Problem01 {
             else {
                 Console.WriteLine("Read Failed!");
             }
-
             /* Start */
             Console.Write("\n\nWorking...");
+            Thread th1 = new Thread(newThreadA);
+            Thread th2 = new Thread(newThreadB);
             sw.Start();
             th1.Start();
             th2.Start();
-            th1.Join();
-            th2.Join();
             /*for (i = 0; i < 1000000000; i++)
                 sum();*/
+            th1.Join();
+            th2.Join();
             sw.Stop();
             Console.WriteLine("Done.");
 

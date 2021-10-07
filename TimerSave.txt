@@ -1,6 +1,6 @@
 Summation result: 888701676
 
-Boss Before Modification
+Before Modification
 Run1:18920
 Run2:19130
 Run3:18329
@@ -8,3 +8,10 @@ Run4:18937
 Run5:18993
 Avg :18861.8
 ------------------------
+Add 2 Threads
+Run1:14321
+Run2:14540
+Run3:14637
+Run4:14520
+Run5:14328
+Avg :14469.2
