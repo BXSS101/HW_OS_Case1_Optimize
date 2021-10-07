@@ -8,7 +8,7 @@ using System.Threading;
 namespace Problem01 {
     class Program {
         static byte[] Data_Global = new byte[1000000000];
-        static long[] Sum_Global = {0, 0, 0, 0};
+        static int[] Sum_Global = {0, 0, 0, 0};
 
         static int ReadData() {
             int returnData = 0;
@@ -28,7 +28,7 @@ namespace Problem01 {
 
             return returnData;
         }
-        static void sum(int ind, int n) {
+        static void sum(uint ind, byte n) {
             if (Data_Global[ind] % 2 == 0) {
                 Sum_Global[n] -= Data_Global[ind];
             }
@@ -44,19 +44,19 @@ namespace Problem01 {
             Data_Global[ind] = 0; 
         }
         static void newThreadA() {
-            for (int i = 0; i < 250000000; i++) 
+            for (uint i = 0; i < 250000000; i++) 
                 sum(i,0);
         }
         static void newThreadB() {
-            for (int j = 250000000; j < 500000000; j++)
+            for (uint j = 250000000; j < 500000000; j++)
                 sum(j,1);
         }
         static void newThreadC() {
-            for (int i = 500000000; i < 750000000; i++) 
+            for (uint i = 500000000; i < 750000000; i++) 
                 sum(i,2);
         }
         static void newThreadD() {
-            for (int j = 750000000; j < 1000000000; j++)
+            for (uint j = 750000000; j < 1000000000; j++)
                 sum(j,3);
         }
         static void Main(string[] args) {

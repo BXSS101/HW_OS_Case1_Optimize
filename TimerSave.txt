@@ -8,7 +8,7 @@ Run4:18937
 Run5:18993
 Avg :18861.8
 ------------------------
-2 Threads
+2 Threads [FASTER]
 Run1:14321
 Run2:14540
 Run3:14637
@@ -23,3 +23,11 @@ Run3:15073
 Run4:15190
 Run5:15549
 Avg :15288
+------------------------
+4 Threads Change variable type to unsigned [No Improvement]
+Run1:15703
+Run2:15698
+Run3:16381
+Run4:15980
+Run5:16302
+Avg :16012.8
