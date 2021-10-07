@@ -1,3 +1,5 @@
+Summation result: 888701676
+
 Boss Before Modification
 Run1:18920
 Run2:19130
