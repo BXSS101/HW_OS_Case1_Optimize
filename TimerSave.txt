@@ -39,36 +39,36 @@ Data read...Complete.
 Working...Done.
 Summation result: 888701676
 Time used: 14142ms
-PS C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize> dotnet run
-C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\Program.cs(19,40): warning SYSLIB0011: 'BinaryFormatter.Deserialize(Stream)' is obsolete: 'BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.' [C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\CS Case.csproj]
 Data read...Complete.
 
 
 Working...Done.
 Summation result: 888701676
 Time used: 15087ms
-PS C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize> dotnet run
-C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\Program.cs(19,40): warning SYSLIB0011: 'BinaryFormatter.Deserialize(Stream)' is obsolete: 'BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.' [C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\CS Case.csproj]
 Data read...Complete.
 
 
 Working...Done.
 Summation result: 888701676
 Time used: 13985ms
-PS C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize> dotnet run
-C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\Program.cs(19,40): warning SYSLIB0011: 'BinaryFormatter.Deserialize(Stream)' is obsolete: 'BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.' [C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\CS Case.csproj]
 Data read...Complete.
 
 
 Working...Done.
 Summation result: 888701676
 Time used: 14371ms
-PS C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize> dotnet run
-C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\Program.cs(19,40): warning SYSLIB0011: 'BinaryFormatter.Deserialize(Stream)' is obsolete: 'BinaryFormatter serialization is obsolete and should not be used. See https://aka.ms/binaryformatter for more information.' [C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize\CS Case.csproj]
 Data read...Complete.
 
 
 Working...Done.
 Summation result: 888701676
 Time used: 14711ms
-PS C:\Users\akara\Documents\playground\CS Case Optimize\HW_OS_Case1_Optimize> 
+---------------------------
+After add so many more Threads Best range is 60 - 80 Threads
+Credit : Pangpond
+Run1:6399
+Run2:6354
+Run3:6367
+Run4:6396
+Run5:6213
+Avg :6345.8

@@ -8,7 +8,8 @@ using System.Threading;
 namespace Problem01 {
     class Program {
         static byte[] Data_Global = new byte[1000000000];
-        static int[] Sum_Global = {0, 0, 0, 0};
+        static long[] Sum_Global = new long[1000000000];
+        static int numthread = 64;
 
         static int ReadData() {
             int returnData = 0;
@@ -28,36 +29,27 @@ namespace Problem01 {
 
             return returnData;
         }
-        static void sum(uint ind, byte n) {
-            if (Data_Global[ind] % 2 == 0) {
-                Sum_Global[n] -= Data_Global[ind];
+        static void sum(int G_index,int i) {
+            if (Data_Global[G_index] % 2 == 0) {
+                Sum_Global[i] -= Data_Global[G_index];
             }
-            else if (Data_Global[ind] % 3 == 0) {
-                Sum_Global[n] += (Data_Global[ind]*2);
+            else if (Data_Global[G_index] % 3 == 0) {
+                Sum_Global[i] += (Data_Global[G_index]*2);
             }
-            else if (Data_Global[ind] % 5 == 0) {
-                Sum_Global[n] += (Data_Global[ind] / 2);
+            else if (Data_Global[G_index] % 5 == 0) {
+                Sum_Global[i] += (Data_Global[G_index] / 2);
             }
-            else if (Data_Global[ind] %7 == 0) {
-                Sum_Global[n] += (Data_Global[ind] / 3);
+            else if (Data_Global[G_index] %7 == 0) {
+                Sum_Global[i] += (Data_Global[G_index] / 3);
             }
-            Data_Global[ind] = 0; 
+            Data_Global[G_index] = 0;  
         }
-        static void newThreadA() {
-            for (uint i = 0; i < 250000000; i++) 
-                sum(i,0);
-        }
-        static void newThreadB() {
-            for (uint j = 250000000; j < 500000000; j++)
-                sum(j,1);
-        }
-        static void newThreadC() {
-            for (uint i = 500000000; i < 750000000; i++) 
-                sum(i,2);
-        }
-        static void newThreadD() {
-            for (uint j = 750000000; j < 1000000000; j++)
-                sum(j,3);
+        static void sthread(int j) {
+            int i;
+            int x = (1000000000/numthread)*j;
+            int y = (1000000000/numthread)*(j+1);
+            for (i = x; i < y; i++)
+                sum(i,j);
         }
         static void Main(string[] args) {
             Stopwatch sw = new Stopwatch();
@@ -72,28 +64,31 @@ namespace Problem01 {
             else {
                 Console.WriteLine("Read Failed!");
             }
+
             /* Start */
+            Console.WriteLine("Thread Count {0}", numthread);
             Console.Write("\n\nWorking...");
-            Thread th1 = new Thread(newThreadA);
-            Thread th2 = new Thread(newThreadB);
-            Thread th3 = new Thread(newThreadC);
-            Thread th4 = new Thread(newThreadD);
+            Thread[] myThreads = new Thread[numthread];
             sw.Start();
-            th1.Start();
-            th2.Start();
-            th3.Start();
-            th4.Start();
-            /*for (i = 0; i < 1000000000; i++)
+            for (int j = 0; j < numthread; j++) {
+                int l=j;
+                myThreads[j] = new Thread(() => sthread(l));
+                myThreads[j].Start();
+            }
+            for (int j = 0; j < numthread; j++) {
+                myThreads[j].Join();
+            }
+            /*int i;
+            for (i = 0; i < 1000000000; i++)
                 sum();*/
-            th1.Join();
-            th2.Join();
-            th3.Join();
-            th4.Join();
+            for(int i = 1;i<numthread;i++){
+                Sum_Global[0]+=Sum_Global[i];
+            }
             sw.Stop();
             Console.WriteLine("Done.");
 
             /* Result */
-            Console.WriteLine("Summation result: {0}", Sum_Global[0] + Sum_Global[1] + Sum_Global[2] + Sum_Global[3]);
+            Console.WriteLine("Summation result: {0}", Sum_Global[0]);
             Console.WriteLine("Time used: " + sw.ElapsedMilliseconds.ToString() + "ms");
         }
     }
